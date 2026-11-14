@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="moon-rabbit-mill site" />
+    <title>ananGames</title>
+    <meta name="description" content="ananGames 게임 안내 페이지 · Games by ananGames" />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #ffffff;
+        --text: #1d1b2e;
+        --muted: #5d5a78;
+        --line: #e4e2f0;
+        --accent: #5b4fd6;
+        --soft: #f5f4fb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #10132f;
+          --text: #f2f0ff;
+          --muted: #b3b0d9;
+          --line: #2a2f63;
+          --accent: #b2a6ff;
+          --soft: #171b44;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.7 -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', system-ui, sans-serif;
+        word-break: keep-all;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 16px 64px;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 0 0 6px;
+      }
+      h2 {
+        font-size: 20px;
+        line-height: 1.35;
+        margin: 0 0 6px;
+      }
+      h2 .en {
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--muted);
+      }
+      p {
+        margin: 0 0 8px;
+      }
+      .muted {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .card {
+        display: flex;
+        gap: 18px;
+        align-items: flex-start;
+        margin: 28px 0;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: var(--soft);
+      }
+      .card img {
+        flex: none;
+        width: 88px;
+        height: 88px;
+        border-radius: 20px;
+      }
+      .links a {
+        display: inline-block;
+        margin-right: 16px;
+      }
+      a {
+        color: var(--accent);
+        overflow-wrap: anywhere;
+      }
+      footer {
+        border-top: 1px solid var(--line);
+        padding-top: 16px;
+      }
+      @media (max-width: 420px) {
+        .card {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ananGames</h1>
+      <p class="muted">ananGames의 게임 안내 페이지예요. · Games by ananGames.</p>
+
+      <section class="card">
+        <img src="icon.png" width="88" height="88" alt="달토끼 떡방앗간 아이콘 · Moon Rabbit Mill icon" />
+        <div>
+          <h2>달토끼 떡방앗간 <span class="en" lang="en">Moon Rabbit Mill</span></h2>
+          <p>보름달 위에서 달토끼와 함께 떡을 찧는 힐링 방치형 게임이에요. 앱을 꺼 두어도 떡이 쌓여요.</p>
+          <p class="muted" lang="en">
+            A cozy idle game where you pound rice cakes with the Moon Rabbit. Your mill keeps working even while the game is closed.
+          </p>
+          <p class="muted">Android · Google Play</p>
+          <p class="links">
+            <a href="privacy-policy.html">개인정보처리방침</a>
+            <a href="privacy-policy.html#en" lang="en">Privacy Policy</a>
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <p>문의 · Contact: <a href="mailto:anangames913@gmail.com">anangames913@gmail.com</a></p>
+      </footer>
+    </main>
+  </body>
+</html>
